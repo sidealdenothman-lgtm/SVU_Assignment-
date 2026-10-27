@@ -1,0 +1,64 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.8;
+}
+
+/* Main Heading */
+h1 {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Section Headings */
+h2 {
+    color: #17365d;
+    border-bottom: 2px solid #c5a059;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+/* Branch List */
+ul {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+/* List Items */
+li {
+    margin-bottom: 8px;
+}
+
+/* Content Sections */
+h2, p, ul {
+    max-width: 900px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
